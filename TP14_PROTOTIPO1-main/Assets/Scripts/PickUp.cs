@@ -12,13 +12,13 @@ public class PickUp : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Coleccionable"))
         {
             objetosRecolectados++;
 
-            contadorTexto.text = "Objetos recolectados: " + objetosRecolectados ;
+            contadorTexto.text = "Objetos recolectados: " + objetosRecolectados;
 
-            Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 
