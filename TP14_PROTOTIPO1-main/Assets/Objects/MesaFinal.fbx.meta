@@ -1,10 +1,17 @@
 fileFormatVersion: 2
-guid: d74dcac5ab710f74ea5a200e0a7a282d
+guid: 718665d95796e3648be998e16408d548
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+    2100000: Gris
+    2100002: Gris oscuro
+    2100004: Blanco
+    2100006: Material.003
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cylinder.003
   externalObjects: {}
   materials:
     importMaterials: 1
