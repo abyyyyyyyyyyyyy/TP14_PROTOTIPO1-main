@@ -6,11 +6,17 @@ public class InteractiveArea : MonoBehaviour
 {
     int score = 0;
 
+    public int maxScore = 2;
+
     UIMANAGER uiManager;
+    
+    GameManager gameManager;
 
     void Awake()
     {
         uiManager = FindObjectOfType<UIMANAGER>();
+        
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -23,5 +29,10 @@ public class InteractiveArea : MonoBehaviour
 
             Destroy(other.gameObject);
         }
+
+        if (score >= maxScore)
+            {
+                gameManager.EndGame();
+            }
     }
 }
