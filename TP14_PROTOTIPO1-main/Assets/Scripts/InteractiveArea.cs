@@ -6,7 +6,7 @@ public class InteractiveArea : MonoBehaviour
 {
     int score = 0;
 
-    public int maxScore = 2;
+    public int maxScore = 10;
 
     UIMANAGER uiManager;
     
