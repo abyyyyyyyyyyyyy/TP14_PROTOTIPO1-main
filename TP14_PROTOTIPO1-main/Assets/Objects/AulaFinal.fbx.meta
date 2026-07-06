@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ef2ee108817fb24da1fbb2ea726b95b
+guid: 7b8f98e799fe5f146b8bd2195678c59b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -162,7 +162,52 @@ ModelImporter:
     4300054: Cube.031
     4300056: Cylinder
     4300058: espacio de al lado de la puerta
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7fe54908444c49944a9367e16274f353, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 29a5374c1b36e3f4691c1e8aaa6a8340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 04b220c4210b127478fd8d9a01485e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: 6d4057600478d53429262fefb750e9c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.005
+    second: {fileID: 2100000, guid: 96b0cbc7711febf468deb60913ae9ade, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 73743890e7ecf4841b89cb8e4e755da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 43b01671662fce042a5fcacca55b7fe1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Piso
+    second: {fileID: 2800000, guid: 29972f6685e9c8344828adb6df5b300b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Techo
+    second: {fileID: 2800000, guid: bce06d38b17833240be7a2c586aa34b2, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
