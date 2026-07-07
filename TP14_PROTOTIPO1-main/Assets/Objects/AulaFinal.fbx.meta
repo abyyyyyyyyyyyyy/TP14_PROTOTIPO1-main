@@ -202,12 +202,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Piso
-    second: {fileID: 2800000, guid: 29972f6685e9c8344828adb6df5b300b, type: 3}
+    second: {fileID: 2800000, guid: 86fd0130905acdd439be5c04ad065681, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Techo
-    second: {fileID: 2800000, guid: bce06d38b17833240be7a2c586aa34b2, type: 3}
+    second: {fileID: 2800000, guid: e29dc9c00b6909847831b7ab5cba3ad9, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -247,7 +247,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
